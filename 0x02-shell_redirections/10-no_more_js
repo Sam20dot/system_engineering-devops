@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.js" -not -path "*/\.*" -delete
+find . -type f -name "*.js" ! -path "./test_0/*" ! -path "./test_1/*" -delete
