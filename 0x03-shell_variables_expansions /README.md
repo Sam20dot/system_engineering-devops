@@ -1,1 +1,3 @@
-this is the variable for the making the alx team and me who study it get what i want and the knownledges thay i am getting 
+# 0x03-shell_variables_expansions
+
+This directory contains all the scripts for shell variables and expansions project tasks.
