@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Display the UID of the current shell process with header
+# Display UID of current shell process with header
 
 ps -p $$ -o uid
