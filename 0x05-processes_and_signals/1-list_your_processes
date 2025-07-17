@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that displays all running processes with hierarchy and user info
+# Display all processes with UID and full command line (args)
 
-ps -ef --forest
+ps -eo uid,args
