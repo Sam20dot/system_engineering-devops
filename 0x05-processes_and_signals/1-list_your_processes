@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
-# Display UID of current shell process with header
 
-ps -p $$ -o uid
+# List all processes from all users (-e)
+# Show detailed info (-o with desired columns)
+# Include processes without TTY (default with -e)
+# Show process hierarchy (tree) with --forest
+
+ps -e -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,cmd --forest
