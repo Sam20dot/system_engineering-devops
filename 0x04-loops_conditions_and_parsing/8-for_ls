@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
-# This script checks if a file exists and prints a message accordingly
+# This script lists files in the current directory using a for loop
 
-if [ -e "$1" ]; then
-  echo "File exists"
-else
-  echo "File does not exist"
-fi
+for file in *; do
+  echo "$file"
+done
