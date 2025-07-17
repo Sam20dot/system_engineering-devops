@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
-
-# List all processes from all users (-e)
-# Show detailed info (-o with desired columns)
-# Include processes without TTY (default with -e)
-# Show process hierarchy (tree) with --forest
+# List all running processes for all users, including those without TTY, showing process hierarchy
 
 ps -e -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,cmd --forest
