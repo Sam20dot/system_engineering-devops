@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Display all processes with UID and full command line (args)
+# Display the UID of the current shell process with header
 
-ps -eo uid,args
+ps -p $$ -o uid
